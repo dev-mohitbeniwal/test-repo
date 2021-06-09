@@ -14,7 +14,7 @@ const tasks = document.querySelector('.tasks ul');
 const taskItems = tasks.children;
 
 if ( favsItems.length === 0 ) {
-  favsSection.style.display = 'none';
+  favsSection.style.display = 'some';
 };
 
 if ( taskItems.length === 0 ) {
